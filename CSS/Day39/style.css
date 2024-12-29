@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height:100vh;
+    width:100vw;
+    background-color: rgb(101, 101, 150);
+    padding: 1%;
+}
+
+.box{
+    height: 10%;
+    width: 35%;
+    background-color:black;
+    border-radius: 1em;
+  
+    animation-name:forBox;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+.box1{
+    height: 10%;
+    width: 35%;
+    background-color:black;
+    border-radius: 1em;
+ 
+    position: relative;
+    top: 65%;
+
+    animation-name:forBox1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes forBox{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+       transform: translateX(180%);
+        
+    }
+}
+
+@keyframes forBox1{
+    from{
+        transform: translateX(0%);
+    }
+    to{
+       transform: translateX(180%);
+        
+    }
+}
+
+.ball{
+    width: 10%;
+    height: 15%;
+    position: relative;
+    top: 30%;
+    background-color: black;
+    border-radius: 10rem;
+    animation-name: forBall;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+}
+
+@keyframes forBall{
+    20%{
+        transform: translateX(550%);
+    }
+    40%{
+        transform: translateY(300%);
+    }
+
+    60%{
+        transform: translateX(550%);   
+    }
+ 
+    90%{
+        transform: translateY(-300%);
+    }
+
+}

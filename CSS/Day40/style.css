@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 60%;
+    width: 60%;
+    background-color: beige;
+    box-shadow: 1px 1px 12px 1px rgb(44, 112, 44);
+}
+
+.box h1{
+    margin: 2%;
+    text-shadow: 1px 1px 6px  blue;
+}
+
+.box p{
+    margin: 2%;
+    font-size: 120%;
+    text-shadow: 0.5px 3px 3px red;
+}

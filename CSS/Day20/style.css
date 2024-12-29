@@ -1,0 +1,11 @@
+.nav{
+    background-color: antiquewhite;
+}
+.nav ul li{
+    /* list-style: none; */
+    background-color: yellow;
+    border: 2px solid black;
+    list-style-position: inside;
+    /* list-style-image: url(/images/logo.jpeg) ; */
+    
+}

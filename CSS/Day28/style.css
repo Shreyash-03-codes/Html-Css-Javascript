@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box1{
+    height: 80vh;
+    width: 70vw;
+    background-color: antiquewhite;
+}
+.box2{
+    height: 80vh;
+    width: 70vw;
+    background-color: blueviolet;
+}
+
+.box1 p:first-child{
+    background-color: red;
+    color: yellow;
+}
+.box1 p:last-child{
+    background-color: red;
+    color: yellow;
+}
+
+.box2 p:nth-child(3){
+    background-color: aqua;
+    color: brown;
+}
+.box2 p:hover{
+    background-color: black;
+    color: white;
+}
+
+.box1 p::before{
+    background-color: red;
+}
+
+.box1 p::after{
+    background-color: yellow;
+}

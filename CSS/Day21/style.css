@@ -1,0 +1,25 @@
+.box{
+    background-color: antiquewhite;
+    border:2px solid black;
+    margin: 2%;
+    width: 40vw;
+    height: 30vh;
+    overflow: auto;
+}
+.box2{
+    margin: 2%;
+    background-color: antiquewhite;
+    border:2px solid black;
+    width: 40vw;
+    height: 30vh;
+    overflow: hidden auto;
+   
+}
+.box1{
+    background-color: antiquewhite;
+    border:2px solid black;
+    margin: 2%;
+    width: 40vw;
+    height: 30vh;
+    overflow: hidden;
+}

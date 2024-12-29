@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#firstDiv{
+    background-color: yellow;
+    height: 15vh;
+    margin: 1%;
+
+    /* for manipulate size of font */
+    font-size: 120%;
+    /* for manipulate font family of font */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* for doing font bold */
+    font-weight: bold;  
+    /* for the font style like italic,etc */
+    font-style: italic;
+    
+}
+#secondDiv{
+    background-color: red;
+    height: 15vh;
+    margin: 1%;
+    font-size: 120%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    /* for the textDecortion like underline ,overline ,etc or removing */
+    text-decoration: none;
+    /*  for aligning the text at start , center , end ,etc*/
+    text-align: end;
+    /*  for thr transforming text into uppercase or loercase or doing capatilize*/
+    text-transform: uppercase;
+    /* to give indent to text from left side */
+    text-indent: 1%;
+
+}
+#thirdDiv{
+    background-color: rgb(228, 234, 228);
+    height: 15vh;
+    margin: 1%;
+    font-size: 120%;
+    font-family: "Poppins", sans-serif;
+    
+    /* color: red; ---->by using color name*/
+    /* color:rgb(23,89,67) ------>by using the rgb code */
+    /* color:rgba(45,67,200,0.5)  ------>by using rgba */
+    /* color: #782045; ----->by using the hex code*/
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 220vh;
+    width: 100vw;
+    box-sizing: border-box;
+}
+.first{
+    color: white;
+    height: 48%;
+    width: 100%;
+    background-color: rgba(10, 76, 218, 0.991);
+  
+}
+
+.nav{
+    display: flex;
+    height: 7.5%;
+    width: 100%;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+}
+
+.nav ul{
+    display: flex;
+    height: 100%;
+    align-items:center;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+}
+
+.nav ul li{
+    list-style: none;
+    margin-right: 35%;
+    margin-top: 20%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+.head{
+    margin-top: 2%;
+    margin-right: 65%;
+    font-family: cursive;
+}
+.nav ul .home{
+    height: 50%;
+    width: 99%;
+    background-color: rgb(39, 119, 119);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.content{
+    margin-top: 4%;
+    height: 85%;
+    width: 100%;
+
+    display: flex;
+}
+
+.heading{
+    height: 100%;
+    width: 45%;
+    padding-top: 5%;
+}
+
+.heading h1{
+    font-size:410%;
+    margin: 4%;
+}
+.heading p{
+    word-wrap: break-word;
+    margin: 3%;
+}
+.image{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    background-image: url("buisness2.jpeg");
+    width: 45%;
+    height: 77%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 1px 1px 45px  black;
+    background-color: aliceblue;
+}
+
+.second{
+    height: 52%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.about{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.foot{
+    height: 100%;
+    width: 40%;
+    font-size: 450%;
+    text-align: center;
+    padding-top: 2%;
+}
+
+.footdata{
+    word-wrap: break-word;
+    height: 100%;
+    width: 60%;
+    font-size: 150%;
+    padding-top: 2%;
+    padding-right: 2%;
+}
+
+.footimg{
+    background-image: url("buisness.jpeg");
+    width: 45%;
+    height: 68%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    box-shadow: 1px 1px 45px  black;
+    margin-left: 28%;
+}

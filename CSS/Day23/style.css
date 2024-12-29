@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    height: 120vh;
+}
+.container{
+    height: 120vh;
+    width: 30vw;
+    background-color: rgb(210, 232, 236);
+    position: absolute;
+    top: 10vh;
+    left: 35vw;
+    box-shadow: 1px 1px 65px 1px  black;
+
+}
+
+.image{
+    
+    background-image: url(images/image.jpg);
+    background-size: 95% 100%;
+    background-repeat: no-repeat;
+    margin-top: 5%;
+    margin-left: 5%;
+    height: 50%;
+    width: 95%; 
+    border-radius: 10px;
+}
+.contact{
+    margin-top: 3%;
+    padding-top: 3%;
+    height: 15%;
+    width: 50%;
+    display: flex;
+}
+
+.bottun{
+    margin-left: 7%;
+    height: 25%;
+    width: 50%;
+    padding-top: 1%;
+    text-align: center;
+    border: 2px solid rgb(147, 171, 220);
+    background-color: rgb(164, 216, 216);
+    border-radius: 10px;
+    font-size: 80%;
+}
+
+.info{
+    padding: 2%;
+    word-wrap: break-word;
+    word-break: break-all;
+    box-sizing: border-box;
+   
+}
+.info p{
+    margin: 2%;
+    text-align: justify;
+}

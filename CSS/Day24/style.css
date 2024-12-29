@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --color:red;
+    --seccolor:blue;
+    --padd:5%;
+    --textsize:180%;
+    --textcolor:yellow;
+}
+.box1{
+    height: 30vh;
+    width: 30vw;
+    margin: 3%;
+    border: 2px solid var(--seccolor);
+    background-color: var(--color);
+    padding: var(--padd);
+    box-sizing: border-box;
+    font-size: var(--textsize);
+    color: var(--textcolor);
+}
+.box2{
+    height: 30vh;
+    width: 30vw;
+    margin: 3%;
+    border: 2px solid var(--color);
+    background-color: var(--seccolor);
+    padding: var(--padd);
+    box-sizing: border-box;
+    font-size: var(--textsize);
+    color: var(--textcolor);
+}

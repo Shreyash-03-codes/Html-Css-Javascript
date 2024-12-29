@@ -1,0 +1,40 @@
+/* Universal Selector */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Element selector */
+h1{
+    background-color: yellow;
+    color: red;
+}
+
+/* ID Selector */
+#firstDiv{
+    background-color: red;
+    color: blue;
+}
+
+/* class Selector */
+.yellowDiv{
+    background-color: yellow;
+    color: black;
+}
+
+/* child selector */
+
+span>p{
+    background-color: aqua;
+}
+
+/* decendent selector */
+div span{
+    background-color: blue;
+    color: red;
+}
+
+/* pseudo selectors */
+p:hover{
+    background-color: rgb(251, 156, 24);
+}

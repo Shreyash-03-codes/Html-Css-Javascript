@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.box1{
+    margin: 10%;
+    height: 25%;
+    width: 15%;
+    background-color: bisque;
+    transform: rotate(45deg);
+}
+
+.box2{
+    transform: skewX(35deg);
+    margin: 10%;
+    height: 25%;
+    width: 15%;
+    background-color: aqua;
+}
+
+.box3{
+    margin: 10%;
+    height: 25%;
+    width: 15%;
+    background-color: blueviolet;
+    transform: rotateX(45deg);
+}
+
+.box4{
+    margin: 10%;
+    height: 25%;
+    width: 15%;
+    background-color: aquamarine;
+    transform: skewY(45deg);
+}

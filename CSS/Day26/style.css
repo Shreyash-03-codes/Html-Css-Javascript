@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --color:red;
+}
+.nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: antiquewhite;
+}
+.nav ul{
+    display: flex;
+    box-sizing: border-box;
+    
+}
+
+.nav ul li{
+    list-style: none;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    color: var(--color);
+}
+

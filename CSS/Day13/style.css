@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#box1{
+    background-color: aqua;
+    box-sizing:border-box ;
+    height: 30vh;
+    width: 70vw;
+    border: 2px solid black;
+    margin: 5%;
+    padding: 2vh;
+}
+#box2{
+    background-color: blanchedalmond;
+    box-sizing:border-box ;
+    height: 30vh;
+    width: 70vw;
+    border: 2px solid black;
+    padding: 5vh;
+    margin: 2%;
+}
+#paraFirstDiv{
+    background-color: cadetblue;
+    box-sizing: border-box;
+    height: 40%;
+    width: 80%;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 2%;
+}
+#paraSecondDiv{
+    box-sizing: border-box;
+    background-color: bisque;
+    height: 40%;
+    width: 80%;
+    border: 2px solid black;
+    padding: 2%;
+    margin: 2%;
+}

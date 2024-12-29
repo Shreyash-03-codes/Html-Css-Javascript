@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid in CSS</title>
+    <style>
+        .container{
+            height: 70vh;
+            width: 70vw;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: "box1 box1 box1"
+                                    "box box box"                    
+                                    "box5 box5 box5";
+                                    row-gap: 1%;
+                                    column-gap: 1%;
+        }
+
+        .box{
+            border: 2px solid black;
+            
+ 
+        }
+        .box1{
+            
+            grid-column: 1/4;
+            grid-row: 1/2;
+        }
+        .box5{
+            
+            grid-column: 1/4;
+            grid-row: 3/4;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box box1">
+            BOX1
+        </div>
+        <div class="box box2">
+            BOX2
+        </div>
+        <div class="box box3">
+            BOX3
+        </div>
+        <div class="box">
+            BOX4
+        </div>
+        <div class="box box5">
+            BOX5
+        </div>
+        
+    </div>
+    
+</body>
+</html>

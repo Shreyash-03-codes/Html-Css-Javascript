@@ -1,0 +1,21 @@
+.box1{
+    display: inline;
+    width: 100vw;
+    min-height:auto;
+    background-color: aqua;
+    border: 2px solid black;
+}
+.box2{
+    width: 100vw;
+    height:30vh;
+    background-color: beige;
+    border: 2px solid black;
+    /* display: inline-block; */
+}
+.box3{
+    display: inline;
+    width: 100vw;
+    min-height:auto;
+    background-color: red;
+    border: 2px solid black;
+}

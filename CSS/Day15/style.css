@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* 0 specificity */
+    color: aqua;
+}
+ /* 
+#text{
+   100 specificity 
+    color: maroon;
+}
+*/
+ div{
+    /* 1 specificity */
+    color: red;
+}
+
+/* div{
+     10000 specificity 
+    color: red !important;
+} 
+*/
+div.black{
+    color: black;
+}
+.green{
+    /* 10 specificity */
+    color: green;
+}
+.yellow{
+     /* 10 specificity */
+    color: yellow;
+}
+.black{
+     /* 10 specificity */
+    color: black;
+}
+.blue{
+     /* 10 specificity */
+    color: blue;
+} 
+/* #text{
+    color: maroon;
+} */
